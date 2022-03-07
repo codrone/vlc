@@ -1,0 +1,44 @@
+.header{
+    height: 95vh;
+}
+.header h1{
+    margin-top: 25%;
+    font-size: 90px;
+    margin-left: 50px;
+}
+.header p{
+    margin-left: 50px;
+    font-size: 30px;
+    color: blue;
+}
+.header p span{
+    font-size: 20px;
+    color: gray;
+}
+.header button{
+    margin-left: 50px;
+}
+.header img{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#services{
+    height: 100vh;
+}
+.services h1{
+    text-align: center;
+}
+.services p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 600px){
+    .header h1{
+        margin-top: 10%;
+        font-size: 60px;
+        margin-left: 70px;
+    }
+}
